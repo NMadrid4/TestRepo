@@ -1,0 +1,270 @@
+{
+	"id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+	"name": "BCRP",
+	"description": "",
+	"order": [
+		"5b4e146b-65e5-f458-ae3e-86043370ad57",
+		"ed44db08-d4af-253a-66a3-a91607bbf866",
+		"ccac85e1-d6b0-e5d9-787a-7a930b27742e",
+		"4f792c00-9a85-18b3-3935-8746670e884b",
+		"52f8d6bd-fb6c-0886-9453-d86ecf903453",
+		"1003b22c-8136-534d-926e-4ee581f767ab",
+		"60d50395-2a8e-a91a-61ba-5e688d5303b4",
+		"7ea1ee7c-6f4f-1ad9-453d-02b90532b29c",
+		"57cf3c61-9628-5006-95bd-ea7c9e32b2d5",
+		"84fa662c-0c93-091a-f525-f6af7d155f6d",
+		"cabd6238-1a5a-ad7c-4893-a31ba49cddeb"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1523110091347,
+	"owner": 0,
+	"public": false,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "1003b22c-8136-534d-926e-4ee581f767ab",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/serie",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"data": [
+				{
+					"key": "codigo",
+					"value": "PN01448BM",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Detalle de serie",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1527106260243,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "4f792c00-9a85-18b3-3935-8746670e884b",
+			"headers": "",
+			"headerData": [],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/calendario",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"data": null,
+			"dataMode": "params",
+			"name": "Calendario de publicación de estadísticas",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1527105430003,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "52f8d6bd-fb6c-0886-9453-d86ecf903453",
+			"headers": "",
+			"headerData": [],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/configuracion",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"data": null,
+			"dataMode": "params",
+			"name": "Ajustes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1527105929775,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "57cf3c61-9628-5006-95bd-ea7c9e32b2d5",
+			"headers": "",
+			"headerData": [],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/buscar",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"data": [
+				{
+					"key": "keyword",
+					"value": "PBI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "porpagina",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pagina",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idioma",
+					"value": "ingles",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "Buscar serie",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1528318253084,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "5b4e146b-65e5-f458-ae3e-86043370ad57",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/inicio",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "codigos",
+					"value": "PN01728AM",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1526672679904,
+			"name": "Inicio",
+			"description": "",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"responses": [],
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "60d50395-2a8e-a91a-61ba-5e688d5303b4",
+			"headers": "",
+			"headerData": [],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/categorias ",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6b51ea61-d00c-bda5-91dc-badc5b87bd44",
+			"data": null,
+			"dataMode": "params",
+			"name": "Categorías",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1527106075446,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "6b51ea61-d00c-bda5-91dc-badc5b87bd44"
+		},
+		{
+			"id": "7ea1ee7c-6f4f-1ad9-453d-02b90532b29c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/appbcrp/categoria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "categoria",
+					"value": "ACT",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "categoria",
+					"value": "EXT",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "categoria",
+					"value": "EMP",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "categoria",
+					"value": "BVL",
+					"description": "",
+					"type": "text",
+					"enabled": false
